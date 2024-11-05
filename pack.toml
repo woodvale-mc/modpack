@@ -1,0 +1,13 @@
+name = "Woodvale"
+author = "dcxo"
+version = "1.0.0"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "47ae7b038d75bc9aef20a7fa5e15fa2386f802017bb2b95e14cf35fcc9b15eb6"
+
+[versions]
+fabric = "0.16.9"
+minecraft = "1.20.1"
