@@ -1,6 +1,10 @@
 hash-format = "sha256"
 
 [[files]]
+file = ".github/workflows/modrinth.yml"
+hash = "ddba510be72c1ad7419895ad68a74370d5ce52587a1bd75157dbd54f1311a44c"
+
+[[files]]
 file = "mods/3dskinlayers.pw.toml"
 hash = "38ab010994129955886b3d7e8012c594b013848449ee1fe31ff05d581094c70d"
 metafile = true
@@ -197,4 +201,4 @@ metafile = true
 
 [[files]]
 file = "servers.dat"
-hash = "b5f8cbd2d6b170e1d8d2d29e2ce5097a40387dde7e2969cb315ad0e3764b2cd0"
+hash = "d5d1e5043c48dde7cf7ae324f0ffb87e517e8b97e4d64e17c5a6702b89c8e3ce"

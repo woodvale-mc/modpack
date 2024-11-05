@@ -1,0 +1,41 @@
+name: Generate Modrinth Modpack
+on:
+  workflow_dispatch:
+  push:
+    tags:
+      - 'v*'
+
+jobs:
+  build-packwiz:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Get Packwiz code
+        run: |
+          git clone https://github.com/packwiz/packwiz.git
+
+      - name: Setup Go
+        uses: actions/setup-go@v4
+        with:
+          go-version: '1.20'
+
+      - name: Install Packwiz
+        run: |
+          cd packwiz
+          go install github.com/packwiz/packwiz@latest
+
+  create-modpack:
+    runs-on: ubuntu-latest
+    needs: [build-packwiz]
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v3
+
+      - name: Generate Modrinth Modpack
+        run: |
+          packwiz modrinth export
+
+      - name: Upload generated file as artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: Woodvale.mrpack
+          path: ./Woodvale.mrpack
