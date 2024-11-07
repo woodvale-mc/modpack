@@ -30,6 +30,7 @@ jobs:
       - name: Generate Modrinth Modpack
         run: |
           packwiz modrinth export -o Woodvale-${{ github.ref_name }}.mrpack
+          packwiz list | sed -e 's/^/- /' >> MODS.md
 
       - name: release
         uses: actions/create-release@v1
@@ -40,6 +41,7 @@ jobs:
           prerelease: false
           release_name: ${{ github.ref_name }}
           tag_name: ${{ github.ref }}
+          body_path: ./MODS.md
         env:
           GITHUB_TOKEN: ${{ github.token }}
 
