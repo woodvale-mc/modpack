@@ -25,6 +25,11 @@ hash = "7d44149b8b22e0b19b082f49809edfc1b5f170e5d1d297cd73ae88c0b432c3ab"
 metafile = true
 
 [[files]]
+file = "mods/architectury-api.pw.toml"
+hash = "e12dce3e543168379a2856c66064ee2001e6420a9dfc6163f37b78e518947456"
+metafile = true
+
+[[files]]
 file = "mods/badpackets.pw.toml"
 hash = "2b153d649184fcf793de475b3b3beaf238f7b558226ffc57896096a7ddcd99ad"
 metafile = true
@@ -42,6 +47,21 @@ metafile = true
 [[files]]
 file = "mods/continuity.pw.toml"
 hash = "14a5af2b7faa6df33e76e7b704eaa398d78a6026c5c996bc5ea13ae02e5d6b74"
+metafile = true
+
+[[files]]
+file = "mods/copycats.pw.toml"
+hash = "ac7153ccd646c14f801c2fe70c50eec5633db769ff1837f5ae00f45ff78a16e4"
+metafile = true
+
+[[files]]
+file = "mods/create-cobblestone.pw.toml"
+hash = "880a473cd7d26034aa7c820223dc0da53f137718c2191b62782bbfc87f3ffb8f"
+metafile = true
+
+[[files]]
+file = "mods/create-connected-fabric.pw.toml"
+hash = "68f1f763b3505a7765b431395c67c169f5f7ec59eca8eab2b46f5ce2397d0816"
 metafile = true
 
 [[files]]
@@ -112,6 +132,11 @@ metafile = true
 [[files]]
 file = "mods/forge-config-api-port.pw.toml"
 hash = "5213b7d2f88e92f1903295de37db55684656a66b1e85b791673500947088340a"
+metafile = true
+
+[[files]]
+file = "mods/fxnt-create-storage.pw.toml"
+hash = "35c71e20d7f3492c1d3a81050db4ed2c6c9b372c588f9ada003bf1e2b119dfbe"
 metafile = true
 
 [[files]]
