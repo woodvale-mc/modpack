@@ -8,6 +8,7 @@ on:
 jobs:
   build-packwiz:
     runs-on: ubuntu-latest
+    permissions: write-all
     steps:
       - name: Get Packwiz code
         run: |
