@@ -29,7 +29,8 @@ jobs:
   
       - name: Generate Modrinth Modpack
         run: |
-          packwiz modrinth export -o Woodvale-${{ github.ref_name }}.mrpack
+          sed -e 's/version = "1.0.0"/version = "${{ github.ref_name }}"/' pack.toml -i
+          packwiz modrinth export
           packwiz list | sed -e 's/^/- /' >> MODS.md
 
       - name: release
