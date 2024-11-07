@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = ".github/workflows/modrinth.yml"
-hash = "ddba510be72c1ad7419895ad68a74370d5ce52587a1bd75157dbd54f1311a44c"
+hash = "c39aeff12b99c0a52b45b23214eae30f9eb171e1b2af3bf462e4869142e89158"
 
 [[files]]
 file = "mods/3dskinlayers.pw.toml"

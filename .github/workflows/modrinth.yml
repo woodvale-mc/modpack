@@ -3,7 +3,7 @@ on:
   workflow_dispatch:
   push:
     tags:
-      - 'v*'
+      - '*'
 
 jobs:
   build-packwiz:
@@ -23,19 +23,33 @@ jobs:
           cd packwiz
           go install github.com/packwiz/packwiz@latest
 
-  create-modpack:
-    runs-on: ubuntu-latest
-    needs: [build-packwiz]
-    steps:
       - name: Checkout Code
         uses: actions/checkout@v3
-
+  
       - name: Generate Modrinth Modpack
         run: |
-          packwiz modrinth export
+          packwiz modrinth export -o Woodvale-${{ github.ref_name }}.mrpack
 
-      - name: Upload generated file as artifact
-        uses: actions/upload-artifact@v3
+      - name: release
+        uses: actions/create-release@v1
+        if: ${{ github.ref_type == 'tag' }}
+        id: create_release
         with:
-          name: Woodvale.mrpack
-          path: ./Woodvale.mrpack
+          draft: false
+          prerelease: false
+          release_name: ${{ github.ref_name }}
+          tag_name: ${{ github.ref }}
+          body_path: CHANGELOG.md
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+
+      - name: upload windows artifact
+        uses: actions/upload-release-asset@v1
+        if: ${{ github.ref_type == 'tag' }}
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        with:
+          upload_url: ${{ steps.create_release.outputs.upload_url }}
+          asset_path: ./Woodvale-${{ github.ref_name }}.mrpack
+          asset_name: Woodvale-${{ github.ref_name }}.mrpack
+          asset_content_type: application/x-modrinth-modpack+zip
