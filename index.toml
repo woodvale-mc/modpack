@@ -90,6 +90,11 @@ hash = "c92aae37a2b79c96ac72e17695d1bcbdc35ca51d56f0fb8d1d9ffa9dace45274"
 metafile = true
 
 [[files]]
+file = "mods/emi.pw.toml"
+hash = "cb84025b57a3c1d575299c82858235cc555867d14d06aca4388302edcdb46281"
+metafile = true
+
+[[files]]
 file = "mods/enchanted-vertical-slabs.pw.toml"
 hash = "2b5084e4752f0da8ed460123c8c7dee015b36650e9b6b557175c13546f646d90"
 metafile = true
@@ -112,6 +117,11 @@ metafile = true
 [[files]]
 file = "mods/extended-cogwheels.pw.toml"
 hash = "49f7a553eb7bd1c0be5b488276b8c12ae0b3bed828e3605ad238295f00190916"
+metafile = true
+
+[[files]]
+file = "mods/extra-mod-integrations.pw.toml"
+hash = "6825690eefa5d0ab6e5e313c1d61ec7894f4debfa8aba4c412ec8e60eeb68c74"
 metafile = true
 
 [[files]]
@@ -157,11 +167,6 @@ metafile = true
 [[files]]
 file = "mods/iris.pw.toml"
 hash = "956298b1bbab6d8bfb5074b169d8d24d04d688182edf8af885bbefc6cc1d9c27"
-metafile = true
-
-[[files]]
-file = "mods/jei.pw.toml"
-hash = "5e83a4294f11fd592e58b0fe8a4041ebdf30875c9dd16060cb74189a7aad240d"
 metafile = true
 
 [[files]]
