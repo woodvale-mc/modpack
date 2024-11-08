@@ -135,11 +135,6 @@ hash = "5213b7d2f88e92f1903295de37db55684656a66b1e85b791673500947088340a"
 metafile = true
 
 [[files]]
-file = "mods/fxnt-create-storage.pw.toml"
-hash = "35c71e20d7f3492c1d3a81050db4ed2c6c9b372c588f9ada003bf1e2b119dfbe"
-metafile = true
-
-[[files]]
 file = "mods/handcrafted.pw.toml"
 hash = "f6629a3c5e023a96cb5d78d66e93b47245996c46a079921b3f6a6094209dc1b0"
 metafile = true
