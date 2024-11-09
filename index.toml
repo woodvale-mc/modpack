@@ -5,6 +5,10 @@ file = ".github/workflows/modrinth.yml"
 hash = "b39c95b76a6fbe91820a972bb16d12ed6fc650a29875cdfbbedfe8d0c9ada442"
 
 [[files]]
+file = "config/emi.css"
+hash = "4554a2056c1ad7c090078e212dae5953dd5a440d461f98cbca34ea43d9e6be5f"
+
+[[files]]
 file = "mods/3dskinlayers.pw.toml"
 hash = "38ab010994129955886b3d7e8012c594b013848449ee1fe31ff05d581094c70d"
 metafile = true
@@ -233,6 +237,10 @@ metafile = true
 file = "mods/wthit.pw.toml"
 hash = "9a4ff6e24cb3425716dad4970a188bb6f769d3eee406773f4fb12a7a67286453"
 metafile = true
+
+[[files]]
+file = "options.txt"
+hash = "02e622fb7f4cc22617cf38ad1f7a67730855d26c2d722dd6036f511a05fc64aa"
 
 [[files]]
 file = "servers.dat"
