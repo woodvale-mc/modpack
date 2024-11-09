@@ -24,6 +24,11 @@ hash = "77fa60afe266039f8577c093a1abeee3155acbcdb22bf5ae14bcf522d15b321d"
 metafile = true
 
 [[files]]
+file = "mods/animated-doors.pw.toml"
+hash = "47f4e44c537bf0b6983ef8d40d67a455f6aea8ac53ffb90218cc1a5d6d64f255"
+metafile = true
+
+[[files]]
 file = "mods/appleskin.pw.toml"
 hash = "7d44149b8b22e0b19b082f49809edfc1b5f170e5d1d297cd73ae88c0b432c3ab"
 metafile = true
@@ -189,6 +194,11 @@ hash = "5cb9996ba53a38d94f86ae72a6106a338b221367ca40b21359e038b4f7ea283c"
 metafile = true
 
 [[files]]
+file = "mods/macaws-stairs.pw.toml"
+hash = "701d20a0dac60c5f4abca641c2ed63f63bf85214306e127d340c3062acf836ba"
+metafile = true
+
+[[files]]
 file = "mods/macaws-windows.pw.toml"
 hash = "1cf87841670e00fca0a57936efda5bdaa6bd6007a3f8edc0f6b546990724b056"
 metafile = true
@@ -241,6 +251,11 @@ metafile = true
 [[files]]
 file = "options.txt"
 hash = "02e622fb7f4cc22617cf38ad1f7a67730855d26c2d722dd6036f511a05fc64aa"
+
+[[files]]
+file = "resourcepacks/animated-door.pw.toml"
+hash = "031a54437d0ac582056ff190637d37530b33f0e7e3f0478b4391b2df8d7b0fb2"
+metafile = true
 
 [[files]]
 file = "servers.dat"
