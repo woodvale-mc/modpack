@@ -1,31 +1,12 @@
 hash-format = "sha256"
 
 [[files]]
-file = ".github/workflows/modrinth.yml"
-hash = "b39c95b76a6fbe91820a972bb16d12ed6fc650a29875cdfbbedfe8d0c9ada442"
-
-[[files]]
 file = "config/emi.css"
-hash = "4554a2056c1ad7c090078e212dae5953dd5a440d461f98cbca34ea43d9e6be5f"
-
-[[files]]
-file = "mods/3dskinlayers.pw.toml"
-hash = "38ab010994129955886b3d7e8012c594b013848449ee1fe31ff05d581094c70d"
-metafile = true
+hash = "8dfd5ba88171cd99c3a3ecdc2e315f6c58c9f6f0249e0dcca429022bfdc4c55f"
 
 [[files]]
 file = "mods/advancement-plaques.pw.toml"
 hash = "f2a3d2af3f3ec8ed1bcdd436a76d89ec9655f20809c2274cb1be5392bb3e904e"
-metafile = true
-
-[[files]]
-file = "mods/almost-unified.pw.toml"
-hash = "77fa60afe266039f8577c093a1abeee3155acbcdb22bf5ae14bcf522d15b321d"
-metafile = true
-
-[[files]]
-file = "mods/animated-doors.pw.toml"
-hash = "47f4e44c537bf0b6983ef8d40d67a455f6aea8ac53ffb90218cc1a5d6d64f255"
 metafile = true
 
 [[files]]
@@ -109,16 +90,6 @@ hash = "2b5084e4752f0da8ed460123c8c7dee015b36650e9b6b557175c13546f646d90"
 metafile = true
 
 [[files]]
-file = "mods/entity-model-features.pw.toml"
-hash = "4eebbd915505891152179070e92c440f7ae3d3bf0ff6497936da38f77a621910"
-metafile = true
-
-[[files]]
-file = "mods/entitytexturefeatures.pw.toml"
-hash = "cf0d22c615de599912978e0352bde47a818d9ba306e34f832b578a86f2912433"
-metafile = true
-
-[[files]]
 file = "mods/expanded-delight.pw.toml"
 hash = "0f6f3fd47bcc2ceb48037121a2691d2af6478a5a2f0b8c78c7287f41442059da"
 metafile = true
@@ -126,6 +97,11 @@ metafile = true
 [[files]]
 file = "mods/extended-cogwheels.pw.toml"
 hash = "49f7a553eb7bd1c0be5b488276b8c12ae0b3bed828e3605ad238295f00190916"
+metafile = true
+
+[[files]]
+file = "mods/extended-drawers.pw.toml"
+hash = "21bdbce23d3cef1dca238e5797f4b87b1e3eb44c8c213e51cd73c51bf55cdced"
 metafile = true
 
 [[files]]
@@ -189,21 +165,6 @@ hash = "470d30cd94b769b646f714432ba4cd01969910f6016957a6b218d2d2900d914c"
 metafile = true
 
 [[files]]
-file = "mods/macaws-bridges.pw.toml"
-hash = "5cb9996ba53a38d94f86ae72a6106a338b221367ca40b21359e038b4f7ea283c"
-metafile = true
-
-[[files]]
-file = "mods/macaws-stairs.pw.toml"
-hash = "701d20a0dac60c5f4abca641c2ed63f63bf85214306e127d340c3062acf836ba"
-metafile = true
-
-[[files]]
-file = "mods/macaws-windows.pw.toml"
-hash = "1cf87841670e00fca0a57936efda5bdaa6bd6007a3f8edc0f6b546990724b056"
-metafile = true
-
-[[files]]
 file = "mods/modmenu.pw.toml"
 hash = "d7145fd1bd8b4bb6a3b84652a96a68870fb3ab32230f27520bb9362fd17ec39f"
 metafile = true
@@ -214,8 +175,18 @@ hash = "b6685e98fce8f1f45868b9df3dbaa410ec23bb64896c826be596d98b01326116"
 metafile = true
 
 [[files]]
+file = "mods/multiworld.pw.toml"
+hash = "d3b08e1e05f8a811e6c333b7a631b74c5bb0cf45ebe58ab907636621bfb68f39"
+metafile = true
+
+[[files]]
 file = "mods/nyfs-spiders.pw.toml"
 hash = "0e4b66acb56a69961e0324eb902df9f490b8681b3d3f99ac3f96bb1b55ad1ba9"
+metafile = true
+
+[[files]]
+file = "mods/patchouli.pw.toml"
+hash = "8fe7a1882593ac153622e5c2bdf8133157f5638040bf10ea3dc9ffcf2ec1930a"
 metafile = true
 
 [[files]]
@@ -251,11 +222,6 @@ metafile = true
 [[files]]
 file = "options.txt"
 hash = "02e622fb7f4cc22617cf38ad1f7a67730855d26c2d722dd6036f511a05fc64aa"
-
-[[files]]
-file = "resourcepacks/animated-door.pw.toml"
-hash = "031a54437d0ac582056ff190637d37530b33f0e7e3f0478b4391b2df8d7b0fb2"
-metafile = true
 
 [[files]]
 file = "servers.dat"
