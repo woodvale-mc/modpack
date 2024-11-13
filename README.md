@@ -14,7 +14,7 @@
 ### 3. Inicia sesión con tu cuenta de Microsoft
 
 > [!IMPORTANT]
-> Para los 🏴‍☠️, teneis que usar un launcher que permita cuentas piratas como [UltimMC](https://github.com/UltimMC/Launcher)
+> Para los 🏴‍☠️, teneis que usar un launcher que permita cuentas piratas ("offline") como [UltimMC](https://github.com/UltimMC/Launcher)
 
 ### 4. Añade el modpack a modrinth
 
